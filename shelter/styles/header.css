@@ -1,0 +1,31 @@
+h1{
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+.logo p{
+  font-family: var(--font-primary);
+  color: var(--color-light-xl);
+}
+
+header .container{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.nav-items{
+  display: flex;
+  color: var(--color-light-s);
+  gap: 35px;
+}
+
+.hero {
+  background:
+    radial-gradient(
+      circle at top left,
+      #5b483a 0%,
+      #262425 50%,
+      #211f20 100%
+    );
+}

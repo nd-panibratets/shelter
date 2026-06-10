@@ -1,0 +1,10 @@
+:root {
+    --font-primary: Arial, sans-serif;
+    --font-secondary: Georgia, serif;
+
+    --color-light-s: #FAFAFA;
+    --color-light-l: #F6F6F6;
+    --color-light-xl: #FFF;
+
+    --color-primary: #F1CDB3;
+}
