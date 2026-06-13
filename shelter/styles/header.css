@@ -20,7 +20,8 @@ header .container{
   gap: 35px;
 }
 
-.hero {
+.hero
+footer {
   background:
     radial-gradient(
       circle at top left,
