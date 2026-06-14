@@ -3,22 +3,34 @@ h1{
   color: var(--color-primary);
 }
 
+h2{
+  font-family: var(--font-secondary);
+  color: var(--color-light-xl);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+h3{
+  font-family: var(--font-secondary);
+  color: var(--color-dark-l);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
 .logo p{
   font-family: var(--font-primary);
   color: var(--color-light-xl);
 }
 
-header .container{
+
+.str-cont{
   display: flex;
-  align-items: center; 
-  justify-content: space-between; 
 }
 
-.nav-items{
-  display: flex;
-  color: var(--color-light-s);
-  gap: 35px;
-}
 
 .hero,
 footer {
@@ -29,4 +41,28 @@ footer {
       #262425 50%,
       #211f20 100%
     );
+}
+
+.content{
+  max-width: 460px ;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-cont{
+  display: flex;
+    align-items: center;
+}
+
+.about-cnt{
+  max-width: 430px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content a, .pets__button{
+  background-color: var(--color-primary);
+  border-radius: 100px;
+  padding: 15px 45px;
 }
