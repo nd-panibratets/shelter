@@ -25,8 +25,33 @@ h3{
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
+  letter-spacing: 2.1px;
 }
 
-p{
+h4{
+  font-family: var(--font-secondary);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 23px */
+  letter-spacing: 1.2px;
+}
+
+.subtitle{
+  font-family: var(--font-secondary);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 16.5px */
+  letter-spacing: 0.9px;
+  color: var(--color-dark-l);
+}
+
+.sub-small{
   font-family: var(--font-primary);
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  color: var(--color-dark-m);
 }

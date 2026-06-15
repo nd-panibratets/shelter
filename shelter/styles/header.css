@@ -76,23 +76,56 @@ footer {
   color: var(--color-dark-s);
 }
 
+/*ABOUT*/
+
+.about{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
 .about-cont{
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 120px;
 }
 
 .about-cnt{
   max-width: 430px;
-
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 
-.content a, .pets__button{
+.heading{
+  max-width: 370px;
+}
+
+.about-cnt p {
+  font-family: var(--font-primary);
+  color: var(--color-dark-xl);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/*PETS*/  
+
+.pets{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.pets-head{
+  max-width: 400px;
+  text-align: center;
+}
+
+.btn{
   display: inline-block;
   padding: 15px 45px;
   border-radius: 100px;
-  align-self: flex-start;
   background-color: var(--color-primary);
   font-family: var(--font-secondary);
   font-size: 17px;
@@ -102,18 +135,30 @@ footer {
   letter-spacing: 1.02px;
 }
 
+.content-btn{
+  align-self: flex-start;
+}
+
+.pets-btn{
+  align-self: center;
+}
+
 .pets-cnt{
   display: flex;
   flex-direction: column;
-
+  align-items: center;
 }
 
 .pets-slider{
   display: flex;
+  align-items: center;
+  gap: 53px;
+  margin: 60px 0;
 }
 
 .pets-slider__track{
   display: flex;
+  gap: 90px;
 }
 
 .pet-card{
@@ -122,34 +167,121 @@ footer {
   align-items: center;
 }
 
+.pets-slider__btn{
+  display: inline-flex;
+  padding: 23px 19px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+}
+
+/*HELP*/
+
+.help{
+  margin: 80px 0 100px 0;
+}
+
+.help-head{
+  text-align: center;
+}
+
 .help-cnt{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .pet-food{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .help-list{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 120px;
+  row-gap: 55px;
+  margin-top: 60px;
 }
 
 /*DONATION*/
 
+.donation{
+  margin: 80px 0 100px 0;
+}
+
 .donation-cnt{
   display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.donation-items{
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.donation-items h3{
+  max-width: 300px;
 }
 
 .credit-card{
   display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: var(--color-primary);
+  border-radius: 9px;
+  padding: 10px 15px;
 }
 
 /*FOOTER*/
 
+
+
 .ft-ctn{
   display: flex;
+  gap: 160px;
+}
+
+.contacts{
+  padding-top: 40px;
+}
+
+.ftr-content{
+  max-width: 302px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ftr-locations{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.ftr-locations h3, .ftr-content h3{
+  color: var(--color-light-xl);
+}
+
+.cont-point{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--color-primary);
+}
+
+.cont-point svg {
+    flex-shrink: 0;
+}
+
+.cont-point h4 {
+    width: 260px;
 }
