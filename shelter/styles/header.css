@@ -285,3 +285,20 @@ footer {
 .cont-point h4 {
     width: 260px;
 }
+
+/*PETS PAGE*/
+
+.pet-cnt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.pet-items{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
