@@ -1,0 +1,46 @@
+/*FOOTER*/
+
+
+
+.ft-ctn{
+  display: flex;
+  gap: 160px;
+}
+
+.contacts{
+  padding-top: 40px;
+}
+
+.ftr-content{
+  max-width: 302px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ftr-locations{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.ftr-locations h3, .ftr-content h3{
+  color: var(--color-light-xl);
+}
+
+.cont-point{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--color-primary);
+}
+
+.cont-point svg {
+    flex-shrink: 0;
+}
+
+.cont-point h4 {
+    width: 260px;
+}
