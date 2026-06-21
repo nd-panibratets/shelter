@@ -1,0 +1,14 @@
+:root {
+    --font-primary: Arial, sans-serif;
+    --font-secondary: Georgia, serif;
+
+    --color-light-s: #FAFAFA;
+    --color-light-l: #F6F6F6;
+    --color-light-xl: #FFF;
+
+    --color-primary: #F1CDB3;
+    --color-dark-l: #545454;
+    --color-dark-s: #CDCDCD;
+    --color-dark-xl: #4C4C4C;
+    --color-dark-m: #B2B2B2;
+}

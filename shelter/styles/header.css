@@ -1,0 +1,321 @@
+
+
+.logo p{
+  font-family: var(--font-primary);
+  color: var(--color-light-xl);
+}
+
+
+
+
+.hero,
+footer {
+  background:
+    radial-gradient(
+      circle at top left,
+      #5b483a 0%,
+      #262425 50%,
+      #211f20 100%
+    );
+}
+
+/*HERO*/
+
+.hero{
+  padding-top: 30px;
+}
+
+
+.hero-ctn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-subtitle{
+  font-family: var(--font-primary);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.75px;
+  color: var(--color-light-xl);
+
+}
+
+.nav-items{
+  display: flex;
+  gap: 35px;
+  color: var(--color-dark-s);
+}
+
+/*NOT ONLY*/
+
+.not-only{
+  margin-top: 90px;
+}
+
+.str-cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.content{
+  max-width: 460px ;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.content h2{
+  max-width: 310px;
+}
+
+.content p{
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--color-dark-s);
+}
+
+/*ABOUT*/
+
+.about{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.about-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.about-cnt{
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.heading{
+  max-width: 370px;
+}
+
+.about-cnt p {
+  font-family: var(--font-primary);
+  color: var(--color-dark-xl);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/*PETS*/  
+
+.pets{
+  padding: 80px 0 100px 0;
+}
+
+.pets-head{
+  max-width: 400px;
+  text-align: center;
+}
+
+.btn{
+  display: inline-block;
+  padding: 15px 45px;
+  border-radius: 100px;
+  background-color: var(--color-primary);
+  font-family: var(--font-secondary);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 22.1px */
+  letter-spacing: 1.02px;
+}
+
+.content-btn{
+  align-self: flex-start;
+}
+
+.pets-btn{
+  align-self: center;
+}
+
+.pets-cnt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pets-slider{
+  display: flex;
+  align-items: center;
+  gap: 53px;
+  margin: 60px 0;
+}
+
+.pets-slider__track{
+  display: flex;
+  gap: 90px;
+}
+
+.pet-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.pets-slider__btn{
+  display: inline-flex;
+  padding: 23px 19px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+}
+
+.pet-card button{
+  border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    width: 187px;
+    padding: 15px 45px;
+
+}
+
+/*HELP*/
+
+.help{
+  margin: 80px 0 100px 0;
+}
+
+.help-head{
+  text-align: center;
+}
+
+.help-cnt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pet-food{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.help-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 120px;
+  row-gap: 55px;
+  margin-top: 60px;
+}
+
+/*DONATION*/
+
+.donation{
+  padding: 80px 0 100px 0;
+}
+
+.donation-cnt{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.donation-items{
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.donation-items h3{
+  max-width: 300px;
+}
+
+.credit-card{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: var(--color-primary);
+  border-radius: 9px;
+  padding: 10px 15px;
+}
+
+
+
+/*PETS PAGE*/
+
+.pet-cnt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.pet-items{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+
+  .str-cont{
+
+    flex-direction: column;
+  }
+
+  .about-cont{
+        flex-direction: column-reverse;
+  }
+
+  .pet-card--tablet-hidden{
+    display: none;
+  }
+
+  .pet-food{
+    max-width: 170px;
+    width: 100%;
+  }
+
+  .help-list{
+    gap: 60px;
+  }
+
+  .donation-cnt{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  .footer__contacts,
+  .footer__locations {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .footer__dog {
+    width: 260px;
+  }
+}

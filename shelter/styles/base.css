@@ -1,0 +1,72 @@
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 35.2px */
+  letter-spacing: 1.92px;
+}
+
+h2{
+  font-family: var(--font-secondary);
+  color: var(--color-light-xl);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+h3{
+  font-family: var(--font-secondary);
+  color: var(--color-dark-l);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 2.1px;
+}
+
+h4{
+  font-family: var(--font-secondary);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 23px */
+  letter-spacing: 1.2px;
+}
+
+.subtitle{
+  font-family: var(--font-secondary);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 16.5px */
+  letter-spacing: 0.9px;
+  color: var(--color-dark-l);
+}
+
+.sub-small{
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+  color: var(--color-dark-m);
+}
+
+.pets,
+.donation{
+  background-color: var(--color-light-l);
+}
+
+
+.pet-card{
+  background-color: var(--color-light-s);
+}
