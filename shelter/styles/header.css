@@ -272,3 +272,50 @@ footer {
   row-gap: 30px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+
+  .str-cont{
+
+    flex-direction: column;
+  }
+
+  .about-cont{
+        flex-direction: column-reverse;
+  }
+
+  .pet-card--tablet-hidden{
+    display: none;
+  }
+
+  .pet-food{
+    max-width: 170px;
+    width: 100%;
+  }
+
+  .help-list{
+    gap: 60px;
+  }
+
+  .donation-cnt{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  .footer__contacts,
+  .footer__locations {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .footer__dog {
+    width: 260px;
+  }
+}
